@@ -1,0 +1,14 @@
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item">Home</li>
+        <li class="nav__item" routerLinkActive="nav__item--active" routerLink="/zoo/animals">Animals</li>
+        <li class="nav__item" routerLinkActive="nav__item--active" routerLink="/zoo/zookeepers">Zookeepers</li>
+        <li class="nav__item" routerLinkActive="nav__item--active" routerLink="/zoo/add-animal">Add Animal</li>
+        <li class="nav__item">
+            Hi, Ivo, <a href="#"
+                        (click)="$event.preventDefault(); auth()"
+                        >{{!isAuth ? 'Login' : 'Logout'}}
+                    </a>
+        </li>
+    </ul>
+</nav>

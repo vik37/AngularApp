@@ -1,0 +1,22 @@
+[
+  {
+    "id": "b8b160f0-22cb-11eb-83ed-53a52f1bbf14",
+    "name": "Ivo Kostovski",
+    "address": "Skopje",
+    "admin": true,
+    "email": "ivo@zoo.mk",
+    "password": "Password",
+    "age": 31,
+    "assignedAnimals": []
+  },
+  {
+    "id": "b8b160f0-22cb-11eb-83ed-53a52f9bbf15",
+    "name": "Gjorge Dimitrov",
+    "address": "Gevgelija",
+    "admin": false,
+    "email": "gjorge@zoo.mk",
+    "password": "Password",
+    "age": 22,
+    "assignedAnimals": []
+  }
+]

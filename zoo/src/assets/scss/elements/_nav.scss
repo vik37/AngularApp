@@ -1,0 +1,30 @@
+.nav {
+    background-color: $primaryColor;
+    color: $white;
+    margin: 8px 0 16px 0;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        text-align: center;
+        padding: 16px;
+        cursor: pointer;
+        font-weight: 400;
+        flex-grow: 1;
+
+        &:not(:first-child) {
+            border-left: 1px solid $white;
+        }
+
+        &:hover {
+            background-color: darken($primaryColor, 10%);
+        }
+        
+        &--active {
+            background-color: darken($primaryColor, 5%);
+        }
+    }
+}

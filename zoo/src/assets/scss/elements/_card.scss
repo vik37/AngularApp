@@ -1,0 +1,39 @@
+.card {
+    box-shadow: 0 0 5px $black;
+    border-radius: 15px;
+    width: 300px;
+    margin: 16px;
+    
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__img {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    &__img-container {
+        height: 175px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    &__info {
+        margin-bottom: 8px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__info-container {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}

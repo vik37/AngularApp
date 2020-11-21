@@ -1,0 +1,92 @@
+[
+  {
+    "id": "b8b160f0-22cb-11eb-83ed-53a52f9bbf14",
+    "name": "Leo",
+    "country": "South Africa",
+    "age": 15,
+    "species": "Lion",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg"
+  },
+  {
+    "id": "b8b160f1-22cb-11eb-83ed-53a52f9bbf14",
+    "name": "Ursula",
+    "country": "Russia",
+    "age": 12,
+    "species": "Brown bear",
+    "gender": "Female",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+  },
+  {
+    "id": "b8b160f0-22hb-11eb-83ed-53a52f9bbf14",
+    "name": "Khaleesi",
+    "country": "Australia",
+    "age": 3,
+    "species": "Bearded Dragon",
+    "gender": "Female",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Bearded_Dragon_showing_beard.jpg/1200px-Bearded_Dragon_showing_beard.jpg"
+  },
+  {
+    "id": "b8b160f0-23cb-11eb-83ed-53a52f9bbf14",
+    "name": "Skipper",
+    "country": "Chile",
+    "age": 9,
+    "species": "Penguin",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/330px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg"
+  },
+  {
+    "id": "b8b160f0-22cb-11eb-83ed-53a52f6bbf14",
+    "name": "Dumbo",
+    "country": "Zimbabwe",
+    "age": 45,
+    "species": "Elephant",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/African_elephant_warning_raised_trunk.jpg/1280px-African_elephant_warning_raised_trunk.jpg"
+  },
+  {
+    "id": "b8b170f0-22cb-11eb-83ed-53a52f9bbf14",
+    "name": "Hippo",
+    "country": "Botswana",
+    "age": 30,
+    "species": "Hippopotamus",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hipop%C3%B3tamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg/1280px-Hipop%C3%B3tamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg"
+  },
+  {
+    "id": "b8b160f0-22cb-11eb-93ed-53a52f9bbf14",
+    "name": "Hawkeye",
+    "country": "USA",
+    "age": 5,
+    "species": "Eagle",
+    "gender": "Female",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%C3%81guila_calva.jpg/1200px-%C3%81guila_calva.jpg"
+  },
+  {
+    "id": "b8b160f0-22cb-1veb-83ed-53a52f9bbf14",
+    "name": "Buffy",
+    "country": "Romania",
+    "age": 2,
+    "species": "Bat",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg"
+  },
+  {
+    "id": "b8b160f0-22cb-11eb-83ed-53a52f9vbf14",
+    "name": "Lucy",
+    "country": "China",
+    "age": 25,
+    "species": "Giant panda",
+    "gender": "Female",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG"
+  },
+  {
+    "id": "c8b160f0-22cb-11eb-83ed-53a52f9bbf14",
+    "name": "Charlie",
+    "country": "Italy",
+    "age": 25,
+    "species": "Horse",
+    "gender": "Male",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg"
+  }
+]

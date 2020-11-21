@@ -1,0 +1,12 @@
+<article class="zookeeper">
+    <h1>{{zookeeper?.name}}</h1>
+    <p #address>Address: {{zookeeper?.address}}</p>
+    <p>Age: {{zookeeper?.age}}</p>
+    <app-assign-animals-form
+        [allAnimals]="allAnimals"
+        [assignedAnimals]="zookeeper?.assignedAnimals"
+        (addAnimal)="onAddAnimal($event)"
+        (removeAnimal)="onRemoveAnimal($event)"
+    >        
+    </app-assign-animals-form>
+</article>

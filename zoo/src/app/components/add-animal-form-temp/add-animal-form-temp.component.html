@@ -1,0 +1,47 @@
+<form class="form" #animalForm="ngForm" (ngSubmit)="onSubmit()">
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Name"
+        [(ngModel)]="animal.name"
+        name="name"
+        required
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Species"
+        [(ngModel)]="animal.species"
+        name="species"
+        required
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Country"
+        [(ngModel)]="animal.country"
+        name="country"
+        required
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Image URL"
+        [(ngModel)]="animal.imageUrl"
+        name="imageUrl"
+        required
+    />
+
+    <select class="form__input" required [(ngModel)]="animal.gender" name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+
+    <button
+        type="submit"
+        class="button"
+        [disabled]="!animalForm.form.valid"
+        >Add animal</button>
+</form>
+
+<!-- <pre>{{animal | json}}</pre> -->

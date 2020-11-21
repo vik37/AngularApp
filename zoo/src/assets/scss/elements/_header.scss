@@ -1,0 +1,10 @@
+.header {
+    &__logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo {
+        height: 100px;
+    }
+}

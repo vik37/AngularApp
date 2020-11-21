@@ -1,0 +1,17 @@
+.button {
+    background-color: transparent;
+    border: 1px solid $black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+// %button-props {
+//     margin: 20px;
+// }
+
+.edit-button {
+    @extend .button;
+    // @extend %button-props;
+    color: $primaryColor;
+}

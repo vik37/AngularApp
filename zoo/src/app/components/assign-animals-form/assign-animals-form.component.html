@@ -1,0 +1,21 @@
+<section class="assign-animals">
+    <h3>Assigned animals</h3>
+    <ul *ngIf="!!assignedAnimals?.length">
+        <li
+            *ngFor="let animal of assignedAnimals"
+            >
+            <p>{{animal?.name}}</p>
+            <button type="button" (click)="removeAnimal.emit(animal?.id)">Remove</button>
+        </li>
+    </ul>
+    <p *ngIf="!assignedAnimals?.length">No assigned animals</p>
+    
+    <h3>Unassigned animals</h3>
+    <ul *ngIf="!!allAnimals?.length">
+        <li *ngFor="let animal of allAnimals">
+            <p>{{animal.name}}</p>
+            <button type="button" (click)="addAnimal.emit(animal?.id)">Add</button>
+        </li>
+    </ul>
+    <p *ngIf="!allAnimals?.length">No unassigned animals</p>
+</section>

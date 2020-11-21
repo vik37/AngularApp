@@ -1,0 +1,51 @@
+<form class="form" [formGroup]="animalForm" (ngSubmit)="onSubmit()">
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Name"
+        formControlName="name"
+        inputRequired
+        [invalid]="nameValid"
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Species"
+        formControlName="species"
+        inputRequired
+        [invalid]="speciesValid"
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Country"
+        formControlName="country"
+        inputRequired
+        [invalid]="countryValid"
+    />
+    <input
+        type="text"
+        class="form__input"
+        placeholder="Image URL"
+        formControlName="imageUrl"
+        inputRequired
+        [invalid]="imageUrlValid"
+    />
+
+    <select
+        class="form__input"
+        formControlName="gender"
+        inputRequired
+        [invalid]="genderValid"
+    >
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+
+    <button
+        type="submit"
+        class="button"
+        [disabled]="animalForm.invalid"
+        >{{isInEditMode ? 'Edit' : 'Add'}} animal
+    </button>
+</form>

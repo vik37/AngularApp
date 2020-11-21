@@ -1,0 +1,24 @@
+<section class="zookeepers__container" *ngIf="!!zookeepers?.length">
+    <table class="zookeepers">
+        <thead>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Age</th>
+            <th>Admin</th>
+            <th>Assigned Animals</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let zookeeper of zookeepers">
+                <td><a [routerLink]="['/zoo/zookeepers/', zookeeper?.id]">{{zookeeper?.name}}</a></td>
+                <td>{{zookeeper?.address}}</td>
+                <td>{{zookeeper?.age}}</td>
+                <td>{{zookeeper?.admin ? 'Yes' : 'No'}}</td>
+                <td>{{ zookeeper?.assignedAnimals | animalsToList }}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<p *ngIf="!zookeepers?.length">
+    No zookeepers available!
+</p>

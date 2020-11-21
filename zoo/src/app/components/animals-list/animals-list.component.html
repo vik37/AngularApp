@@ -1,0 +1,27 @@
+<div class="form">
+    <input
+        type="search"
+        placeholder="Search by species..."
+        class="form__input"
+        (keyup)="filterAnimals($event)"
+        #searchInput
+    />
+</div>
+<section class="card__container">
+    <article class="card" *ngFor="let animal of filteredAnimals">
+        <div class="card__img-container">
+            <img class="card__img" [src]="animal.imageUrl" [alt]="animal.name">
+        </div>
+        <div class="card__info-container">
+            <h1 class="card__title" #animalTitle>{{ animal.name }}</h1>
+            <p class="card__info">Species: {{ animal.species }}</p>
+            <p class="card__info">Country: {{ animal.country }}</p>
+            <button class="button" type="button" [routerLink]="['/zoo/animals', animal.id]">View more</button>
+            <button class="edit-button" type="button" [routerLink]="['/zoo/add-animal', animal.id]">Edit</button>
+             <!-- routerLink="/zoo/animals/{{animal.id}}" -->
+        </div>
+    </article>
+</section>
+<p *ngIf="!animals?.length">
+    No animals available
+</p>

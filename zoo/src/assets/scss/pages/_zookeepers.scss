@@ -1,0 +1,13 @@
+.zookeepers {
+   border: 1px solid $black;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid $black;
+    }
+}

@@ -1,0 +1,10 @@
+.assign-animals {
+    & * {
+        padding: 5px 0;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
+}
